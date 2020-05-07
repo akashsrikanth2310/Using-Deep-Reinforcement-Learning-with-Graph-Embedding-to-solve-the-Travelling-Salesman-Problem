@@ -1,0 +1,37 @@
+﻿Execution document:
+
+
+
+
+Download the jupyter notebook and the datasets given in folders 
+Berlin52 
+KroA100 
+Ulysses22.
+ 
+Pre-installed packages required:
+Python,
+Random,
+Math, 
+Matplotlib,
+Numpy,
+Collections, 
+Torch
+
+
+Installation commands:
+* conda install -c pytorch pytorch
+* pip install random
+* pip install math
+* pip install matplotlib
+* pip install numpy
+* pip install collections
+
+
+Run the Jupyter notebook .
+
+
+In the main function,
+Enter the size of the graph(number of nodes) , you want to train and test the algorithm for.
+Default is 22.
+If you want to test on a real dataset : choose the number of nodes to be in {22,52,100} as the real time data set uploaded for these sizes of graphs [ulysses22, berlin52 and kroA100].
+The datasets when submitted are such that the .tsp files are inside folders for readability. These datasets need to be extracted from corresponding folders and be placed as .tsp files in the same directory as the program.
